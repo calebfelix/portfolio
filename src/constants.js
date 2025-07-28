@@ -34,9 +34,8 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import trainityLogo from './assets/company_logo/trainity.png';
+import nexsalesLogo from './assets/company_logo/nexsales.png';
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.png';
@@ -112,62 +111,38 @@ export const SkillsInfo = [
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-  ];
-  
+export const experiences = [
+  {
+    id: 0,
+    img: nexsalesLogo, // You can assign a company logo if available
+    role: "Software Developer",
+    company: "Nexsales Solutions Pvt. Ltd.",
+    date: "Aug 2023 – Present",
+    desc: "Built production-grade backend and frontend features, including Campaign Execution, GenAI-based email parsing, and dynamic dropdown UIs. Focused on performance optimization, security, and testing.",
+    skills: [
+      "Node.js", "Express", "PostgreSQL", "MongoDB", "JavaScript", "Mocha", "Chai", "Sinon", "Linux", "GCP", "REST APIs", "Docker"
+    ]
+  },
+  {
+    id: 1,
+    img: "", // Assign MyCryptoMart logo if available
+    role: "Web Developer Intern",
+    company: "MyCryptoMart",
+    date: "Dec 2021 – May 2022",
+    desc: "Developed backend APIs and converted UI mockups into responsive EJS-based pages integrated with the OpenSeas platform.",
+    skills: ["JavaScript", "Node.js", "EJS", "HTML", "CSS"]
+  },
+  {
+    id: 2,
+    img: trainityLogo, // Assign Trainity logo if available
+    role: "Software Developer Intern",
+    company: "Trainity (Remote)",
+    date: "Sep 2021 – Nov 2021",
+    desc: "Built full-stack apps using Node.js and MongoDB with deployment and RESTful API integrations.",
+    skills: ["Node.js", "MongoDB", "HTML", "CSS", "REST APIs"]
+  }
+];
+
   export const education = [
     {
       id: 0,
